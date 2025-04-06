@@ -2,6 +2,7 @@ name: rule-validation
 
 on:
   push:
+  pull_request:
     paths: ["rules", "docs/namelint-schema.yaml"]
 
   # Allows you to run this workflow manually from the Actions tab
